@@ -291,12 +291,12 @@ input {
 }
 
 .picture-part {
-    width: 48%; /* Adjust the width of the picture part as needed */
+    width: 48%; 
     position: relative;
     overflow: hidden;
 }
 
-.overlay-text {
+.overlay-text-1 {
     position: absolute;
     top: 70%;
     left: 70%;
