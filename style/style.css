@@ -227,6 +227,89 @@ img {
     font-size: 64px;
 }
 
+.Deals-content{
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.overlay-text-deals {
+    position: absolute;         
+    top: 60%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(237, 230, 230, 0.947);
+    padding: 0px 30px;
+    border-radius: 10px;
+    text-align: start;
+   
+}
+.Deals-content-2{
+    text-align: center;
+    margin-bottom: 50px;
+ }
+
+.overlay-text-deals-2 {
+    position: absolute;         
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(237, 230, 230, 0.947);
+    padding: 0px 30px;
+    border-radius: 10px;
+    text-align: start;
+    
+   
+}
+
+.two-part-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.form-part {
+    width: 48%; 
+    padding: 50px 50px;
+    background-color: rgb(255, 230, 222);
+}
+
+form {
+    max-width: 300px; /* Adjust the max width of the form as needed */
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+.picture-part {
+    width: 48%; /* Adjust the width of the picture part as needed */
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
 @media screen and (max-width: 600px) {
     body{
         padding: 10px 0px;
@@ -329,6 +412,41 @@ img {
         margin-bottom: 5px;
     
         
+    }
+    .bookimg{
+        height: 300px;
+        margin-top: 0px;
+    }
+    .overlay-text-deals{
+        top: 70%;
+        left: 40%;
+      
+    }
+    .overlay-text-deals h1{
+       font-size: 5px;
+    }
+    .overlay-text-deals p{
+       font-size: 5px;
+    }
+    .overlay-text-deals-2{
+        top: 70%;
+        left: 40%;
+      
+    }
+    .overlay-text-deals-2 h1{
+       font-size: 5px;
+    }
+    .overlay-text-deals-2 p{
+       font-size: 5px;
+    }
+    .button-1{
+        display: none;
+    }
+    .two-part-section{
+        flex-direction: column;
+    }
+    .save{
+       display: none;
     }
 }
 
