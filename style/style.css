@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -61,6 +62,7 @@ a {
     cursor: pointer;
 }
 
+
 .menu-toggle span {
     height: 3px;
     width: 25px;
@@ -68,10 +70,75 @@ a {
     margin: 5px 0;
     transition: 0.4s;
 }
+.main-content {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.travel-banner-titile{
+    position: absolute;         
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+   
+    
+    border-radius: 10px;
+    text-align: center;
+}
+.travel-banner-description{
+    position: absolute;         
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    
+    
+    border-radius: 10px;
+    text-align: center;
+}
+
+.overlay-text {
+    position: absolute;         
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(214, 214, 214, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.button {
+    color: rgb(3, 3, 3);
+  
+    border: 2px solid white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    display: inline-block; 
+    cursor: pointer; 
+    border-radius: 6%;
+  }
+.overlay {
+   
+    background: rgba(16, 14, 14, 0.3);
+    filter: brightness(0.5) contrast(0.9); 
+    
+}
 
 @media screen and (max-width: 768px) {
     body{
-        padding: 0px 0px;
+        padding: 10px 0px;
     }
     .menu {
         flex-direction: column;
@@ -100,5 +167,33 @@ a {
 
     nav.active {
         display: flex;
+    }
+    .main-content{
+        margin-top: 20px;
+    }
+    .travel-banner-titile{
+        font-size: 20px;
+        margin-top: 0px;
+        top: 40px;
+    }
+    .travel-banner-description{
+        font-size: 7px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        top: 70px;
+    }
+    .overlay-text{
+        top: 60%;
+        padding: 0% 0%;
+        padding: 5px;
+        margin-bottom: 2px;
+        
+
+    }
+   .overlay{
+    height: 300px;
+   }
+    .button{
+        margin-bottom: 2px;
     }
 }
