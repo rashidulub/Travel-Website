@@ -308,6 +308,33 @@ input {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.footer-section {
+    color: #333;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.icon-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
 
 
 @media screen and (max-width: 600px) {
